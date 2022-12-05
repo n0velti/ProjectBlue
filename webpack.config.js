@@ -22,12 +22,13 @@ module.exports = {
       overlay: true
     },
     hot: true,
-    watchFiles: ['src/*', 'index.html']
+    watchFiles: ['src/*', 'index.html', './src/social/home.html']
   },
   plugins: [
     new CopyWebpackPlugin({
-      patterns: ['index.html']
+      patterns: ['index.html', './src/social/home.html']
     }),
     new webpack.HotModuleReplacementPlugin()
   ]
+
 };

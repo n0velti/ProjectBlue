@@ -6,7 +6,7 @@ import { Amplify, API, graphqlOperation } from "aws-amplify";
 import { onCreateTodo } from "./graphql/subscriptions";
 
  Amplify.configure(awsconfig);
-
+ 
  async function createNewTodo() {
    const todo = {
      name: "Use AppSync",
@@ -27,7 +27,7 @@ import { onCreateTodo } from "./graphql/subscriptions";
  const MutationButton = document.getElementById("MutationEventButton");
  const MutationResult = document.getElementById("MutationResult");
  const QueryResult = document.getElementById("QueryResult");
-const SubscriptionResult = document.getElementById("SubscriptionResult");
+ const SubscriptionResult = document.getElementById("SubscriptionResult");
 
  MutationButton.addEventListener("click", (evt) => {
    createNewTodo().then((evt) => {
@@ -41,5 +41,7 @@ API.graphql(graphqlOperation(onCreateTodo)).subscribe({
     SubscriptionResult.innerHTML += `<p>${todo.name} - ${todo.description}</p>`;
   },
 });
+
+
 
  getData();
