@@ -1,0 +1,29 @@
+{
+  "name": "projectblue",
+  "version": "1.0.0",
+  "description": "# starting an aws branch  # this banch will setup the aws",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "webpack && webpack-dev-server --mode development",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n0velti/ProjectBlue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/n0velti/ProjectBlue/issues"
+  },
+  "homepage": "https://github.com/n0velti/ProjectBlue#readme",
+  "dependencies": {
+    "aws-amplify": "^5.0.4"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^11.0.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.0",
+    "webpack-dev-server": "^4.11.1"
+  }
+}

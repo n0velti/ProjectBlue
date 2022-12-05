@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-projectblue-dev-101724-authRole",
+      "UnauthRoleArn": "arn:aws:iam::260170723358:role/amplify-projectblue-dev-101724-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::260170723358:role/amplify-projectblue-dev-101724-authRole",
+      "Region": "ca-central-1",
+      "DeploymentBucketName": "amplify-projectblue-dev-101724-deployment",
+      "UnauthRoleName": "amplify-projectblue-dev-101724-unauthRole",
+      "StackName": "amplify-projectblue-dev-101724",
+      "StackId": "arn:aws:cloudformation:ca-central-1:260170723358:stack/amplify-projectblue-dev-101724/ea9cd940-74af-11ed-a861-02768b0aa15e",
+      "AmplifyAppId": "d20tgcn52ov913"
+    },
+    "categories": {
+      "api": {
+        "projectblue": {}
+      }
+    }
+  }
+}
